@@ -226,6 +226,11 @@ extension HomeVC: UITextFieldDelegate {
         textField.addTarget(self, action: #selector(valueChanged), for: .editingChanged)
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     @objc func valueChanged(_ textField: UITextField) {
         self.userName = textField.text!
     }

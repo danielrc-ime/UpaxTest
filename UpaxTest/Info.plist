@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Otorga permiso para utilizar la camara y tomar tu selfie</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Por favor permite el acceso para subir fotografías</string>
 	<key>UIApplicationSceneManifest</key>
