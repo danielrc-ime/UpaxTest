@@ -5,7 +5,9 @@ Respuesta a preguntas
 
 - Explique el ciclo de vida de un view controller.
 ```
-Inicia cargando viewDidLoad donde se configuran las variables de la vista inicialemnte, posteriormente viewWillAppear que indica que ya ha colocado las vistas, viewDidAppear indicando que las vistas ya se mostraron
+Inicia cargando viewDidLoad donde se configuran las variables de la vista
+inicialemnte, posteriormente viewWillAppear que indica que ya ha colocado 
+las vistas, viewDidAppear indicando que las vistas ya se mostraron
 ```
 
 - Explique el ciclo de vida de una aplicación.
@@ -17,17 +19,24 @@ Inicia cargando viewDidLoad donde se configuran las variables de la vista inicia
 
 - En que casos se usa un weak, un strong y un unowned.
 ```
-- weak se utiliza cuando requerimos que la variable pueda ser cambiada a "nil" en caso de que la memoria del dispositivo necesite liberar espacio
-- strong lo declaramos en una variable cuando requerimos que no sea eliminada en caso de llenado de memoria
+- weak se utiliza cuando requerimos que la variable pueda ser cambiada 
+a "nil" en caso de que la memoria del dispositivo necesite liberar espacio
+- strong lo declaramos en una variable cuando requerimos que no sea eliminada 
+en caso de llenado de memoria
 - unowned se utiliza cuando requerimos que la variable no sea dealocada
 ```
 
 - Que es ARC?
 ```
-Automatic Reference Counting, se encarga de liberar espacio en la memoria cuando las variables no estén siendo utilizadas
+Automatic Reference Counting, se encarga de liberar espacio en la memoria
+ cuando las variables no estén siendo utilizadas
 ```
 
 - Analizando capturas de pantalla
 ```
-Si el storyboard tiene como nombre "main" y esta configurado con el identificador "ViewController" el código podrá ejecutarse y el color de la vista será rojo de acuerdo a lo programado en la clase ViewController, ya que de acuerdo al ciclo de vida de la app la función viewDidLoad() se ejecuta después de "didFinishLaunchingWithOptions"
+Si el storyboard tiene como nombre "main" y esta configurado con el 
+identificador "ViewController" el código podrá ejecutarse y el color 
+de la vista será rojo de acuerdo a lo programado en la clase ViewController, 
+ya que de acuerdo al ciclo de vida de la app la función viewDidLoad() 
+se ejecuta después de "didFinishLaunchingWithOptions"
 ```
